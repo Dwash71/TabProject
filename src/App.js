@@ -10,12 +10,19 @@ function App() {
   const [value, setValue] = useState(0);
 
   const fetchJobs = async () => {
-    const resp = await fetch(url);
-    const newJobs = await resp.json();
 
-    // set jobs and set loading
-    setJobs(newJobs);
-    setLoading(false);
+    try {
+
+      const resp = await fetch(url);
+      const newJobs = await resp.json();
+
+      // set jobs and set loading
+      setJobs(newJobs);
+      setLoading(false);
+    } catch (error) {
+      setLoading(false);
+      console.log(error);
+    }
   }
 
   useEffect(() => {
