@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TabProject/static/css/main.d00e4a89.css",
+    "main.js": "/TabProject/static/js/main.39af1d2e.js",
+    "index.html": "/TabProject/index.html",
+    "main.d00e4a89.css.map": "/TabProject/static/css/main.d00e4a89.css.map",
+    "main.39af1d2e.js.map": "/TabProject/static/js/main.39af1d2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d00e4a89.css",
+    "static/js/main.39af1d2e.js"
+  ]
+}
